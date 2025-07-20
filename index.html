@@ -6,7 +6,7 @@
     <title>Syed Bilal Fahim - Product Manager Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -63,11 +63,11 @@
             </div>
         </div>
     </section>
-
+   
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about bg-soft-white" style="text-align: center;">
         <div class="container">
-            <div class="about-content">
+            <div class="about-content" style="justify-content: center; display: flex; flex-direction: column; align-items: center;">
                 <div class="about-text">
                     <h2 class="section-title">Behind the Systems: Who I Am</h2>
                     <p class="about-description">
@@ -82,8 +82,7 @@
                         I hold a degree from IBA with a merit scholarship, and I'm driven by simplicity, impact, and clarity. 
                         Whether it's optimizing rural supply chains or scaling SaaS funnels, I turn chaos into conversion.
                     </p>
-                    
-                    <div class="about-stats">
+                    <div class="about-stats" style="justify-content: center; display: flex; gap: 2rem; margin-top: 2rem;">
                         <div class="stat">
                             <span class="stat-number">3+</span>
                             <span class="stat-label">Years Experience</span>
@@ -98,39 +97,60 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-visual">
-                    <div class="profile-placeholder">
-                        <i class="fas fa-user"></i>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
+   
 
     <!-- Currently Building Section -->
-    <section id="currently-building" class="currently-building">
-        <div class="container">
-            <h2 class="section-title">Currently Building at Social Champ</h2>
-            <p class="currently-role">As the first Product Manager at Social Champ, I joined a fast-moving team with a strong product but no real structure around how that product was built or improved. Over the past few months, I’ve helped shift the company from reactive development toward a more intentional, outcome-driven approach.</p>
-            <h3 class="section-subtitle">Here’s what I’ve been focused on:</h3>
-            <ul class="currently-list">
-                <li>Introduced product thinking across the organization, from marketing and support to engineering and customer success</li>
-                <li>Established a roadmap planning process and sprint cadences to replace ad-hoc releases</li>
-                <li>Transitioned the team from feature shipping to problem solving, with clear prioritization frameworks</li>
-                <li>Built out core systems to support product-led growth, including activation flows, trial milestones, and post-signup engagement nudges</li>
-                <li>Launched multiple high-impact features, such as onboarding personalization, lifecycle flows, and an engagement automation engine that filters and routes incoming messages based on keywords</li>
-                <li>Improved trial-to-paid tracking and onboarding completion using analytics tools like Amplitude, GA4, and Open Replay</li>
-                <li>Led a cross-functional product pod of nine engineers and two designers to execute on roadmap priorities across growth and retention</li>
-                <li>Implemented internal process automations to reduce handoff delays, surface feedback faster, and improve sprint velocity</li>
-            </ul>
-            <p class="currently-summary">My focus now is on scaling these systems, deepening analytics adoption across the team, and shipping features that support long-term retention and monetization.</p>
+    <section id="currently-building" class="section currently-building-section bg-gradient-orange">
+        <div class="container currently-building-container">
+            <h2 class="section-title">Leading Product at Social Champ</h2>
+            <p class="currently-intro">Joined as the first Product Manager. Bringing clarity, growth, and structure to a fast-paced SaaS team</p>
+            <div class="currently-cards">
+                <div class="case-study-card impact">
+                    <h3><i class="fas fa-bolt"></i> Impact So Far</h3>
+                    <ul>
+                        <li><strong>171%</strong> increase in Day-1 activation</li>
+                        <li><strong>38%</strong> more users completing onboarding milestones</li>
+                        <li> Cut average time-to-publish from signup by 40%</li>
+                        <li>Reduced churn and improved trial-to-paid tracking</li>
+                        <li>Leading a team of 9 engineers and 2 designers</li>
+                        <li>Shipped 10+ experiments improving PLG funnel performance </li>
+                        <li>Built foundational product systems that now support faster GTM and iteration</li>
+                    </ul>
+                </div>
+                <div class="case-study-card done">
+                    <h3><i class="fas fa-check-circle"></i> What I’ve Done</h3>
+                    <ul>
+                        <li>Introduced roadmap planning and sprint cycles</li>
+                        <li>Mapped trial milestones and activation flows</li>
+                        <li>Built onboarding, engagement automation, and lifecycle nudges</li>
+                        <li>Set up analytics stack using Amplitude, GA4, Open Replay</li>
+                        <li>Automated team handoffs and internal product ops</li>
+                        <li>Launched a new AI content engine to generate platform-specific content for users</li>
+                        <li>Automates post creation, adapts to channel best practices, and saves hours for teams</li>
+                    </ul>
+                </div>
+                <div class="case-study-card focus">
+                    <h3><i class="fas fa-bullseye"></i> Now Focused On</h3>
+                    <ul>
+                        <li>Scaling retention and feature adoption</li>
+                        <li>Improving analytics usage across teams</li>
+                        <li>Shipping systems that compound over time</li>
+                        <li>Accelerating user acquisition through targeted onboarding experiments</li>
+                        <li>Optimizing acquisition channels for higher quality signups</li>
+                        <li>Reducing friction in signup and activation flows to boost conversion</li>
+                    </ul>
+                </div>
+             </div>
         </div>
     </section>
-
+   
     <!-- Case Studies Section -->
-    <section id="case-studies" class="case-studies">
+    <section id="case-studies" class="section bg-soft-white">
         <div class="container">
-            <h2 class="section-title">Case Studies</h2>
+            <h2 class="section-title">Case Studies and Projects</h2>
             <p class="section-subtitle">Real problems, measurable solutions, strategic impact</p>
             
             <div class="case-studies-grid">
@@ -271,10 +291,9 @@
               
             </div>
         </div>
-    </section>
-
+    
     <!-- Data & Concept Projects Section (update cards to match case study style, remove Raast project) -->
-    <section id="data-concept-projects" class="section">
+    <section id="data-concept-projects" class="section bg-soft-white">
         <div class="container">
             <h2 class="section-title">Data & Concept Projects</h2>
             <p class="section-intro">Before I stepped into product full-time, I explored systems through data — across industries like healthcare, fintech, aviation, and media. These projects reflect my early product instincts, analytical mindset, and willingness to dive deep into user problems through data.</p>
@@ -312,6 +331,10 @@
                 </div>
           
     </section>
+    <div class="section-cta-row">
+      <a href="https://calendly.com/syedbilalfahim/30min" class="btn btn-accent" target="_blank" rel="noopener"><i class="fas fa-calendar"></i> Book a Call</a>
+      <a href="https://drive.google.com/file/d/1pK0z0mFs1WkyH3cqMC8yVZwVIs_7jqri/view?usp=drive_link" class="btn btn-primary" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Download Resume</a>
+    </div>
 
     <!-- Case Study Modal -->
     <div id="case-study-modal" class="modal">
@@ -484,26 +507,27 @@
             </div>
         </div>
     </section>
-
+    
   
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Let's Build Something Useful</h2>
             <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:syedbilalfahim@gmail.com">syedbilalfahim@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/syedbilalfahim/" target="_blank">LinkedIn</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-twitter"></i>
-                        <a href="https://x.com/SyedBilalFahim1" target="_blank">X / Twitter</a>
-                    </div>
+                <!-- Centered rounded social icons for contact -->
+                <div class="contact-social-icons">
+                  <a href="mailto:syedbilalfahim@gmail.com" class="social-icon gmail" target="_blank" rel="noopener" title="Email">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/syedbilalfahim/" class="social-icon linkedin" target="_blank" rel="noopener" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://x.com/SyedBilalFahim1" class="social-icon x-twitter" target="_blank" rel="noopener" title="X (Twitter)">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="http://github.com/SyedBilalFahim/" class="social-icon github" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
                 </div>
             </div>
         </div>
